@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="367190d1-8f28-445e-9d54-32bafce217bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.html" beforeDir="false" afterPath="$PROJECT_DIR$/9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="35dWmoppWaxTv4JB8nKTdONcD5c" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,6 +38,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -74,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763440590826</updated>
-      <workItem from="1763440591840" duration="7341000" />
+      <workItem from="1763440591840" duration="7749000" />
+      <workItem from="1763450720149" duration="6137000" />
     </task>
     <servers />
   </component>

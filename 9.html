@@ -5,6 +5,45 @@
     <title>Title</title>
 </head>
 <body>
+<h1>Máy Tính</h1>
 
+    <input type="number" id="radio" name="radio" placeholder="Nhập số thứ nhất:">
+    <input type="number" id="radio1" name="radio1" placeholder="Nhập số thứ hai:">
+    <input type="submit" id="radio2" name="radio2" value="Cộng +">
+    <input type="submit" id="radio3" name="radio3" value="Trừ -">
+    <input type="submit" id="radio4" name="radio4" value="Nhân *">
+    <input type="submit" id="radio5" name="radio5" value="Chia /"><br>
+<h3>Kết Quả</h3>
+<script>
+    function getNumbers() {
+        let a = parseFloat(document.getElementById("radio").value);
+        let b = parseFloat(document.getElementById("radio1").value);
+        return {a, b};
+    }
+
+    document.getElementById("radio2").onclick = function() {
+        let {a, b} = getNumbers();
+        document.querySelector("h3").innerHTML = "Kết Quả: " + (a + b);
+    }
+
+    document.getElementById("radio3").onclick = function() {
+        let {a, b} = getNumbers();
+        document.querySelector("h3").innerHTML = "Kết Quả: " + (a - b);
+    }
+
+    document.getElementById("radio4").onclick = function() {
+        let {a, b} = getNumbers();
+        document.querySelector("h3").innerHTML = "Kết Quả: " + (a * b);
+    }
+
+    document.getElementById("radio5").onclick = function() {
+        let {a, b} = getNumbers();
+        if (b === 0) {
+            document.querySelector("h3").innerHTML = "Kết Quả: Không thể chia cho 0!";
+        } else {
+            document.querySelector("h3").innerHTML = "Kết Quả: " + (a / b);
+        }
+    }
+</script>
 </body>
 </html>
